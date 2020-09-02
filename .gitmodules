@@ -1,0 +1,6 @@
+[submodule "exsub-sub1"]
+	path = exsub-sub1
+	url = https://github.com/laszlomarkus97/exsub-sub1
+[submodule "exsub-sub0"]
+	path = exsub-sub0
+	url = https://github.com/laszlomarkus97/exsub-sub0
