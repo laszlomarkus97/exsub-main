@@ -19,6 +19,7 @@ int main()
     cout << n << endl;
 
     cout << "alma" << endl;
+  cout << "korte" << endl;
 
     return 0;
 }
