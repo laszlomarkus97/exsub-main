@@ -18,7 +18,7 @@ int main()
     cout << k << endl;
     cout << n << endl;
 
-cout << "alma" << endl;
+    cout << "alma" << endl;
 
     return 0;
 }
