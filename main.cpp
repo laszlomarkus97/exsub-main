@@ -17,5 +17,8 @@ int main()
     n = GetMax<long>(l, m);
     cout << k << endl;
     cout << n << endl;
+
+cout << "alma" << endl;
+
     return 0;
 }
