@@ -1,10 +1,12 @@
-name: Clang Format Checker
-on: [push]
+name: c-linter
+
+on: [pull_request]
 jobs:
-  clang-format-checking:
+  c-linter:
+    name: c-linter
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: RafikFarhad/clang-format-github-action@v1
-        with:
-          sources: "src/**/*.h,src/**/*.c,test/**/*.c"
+      - name: c-linter
+        uses: ArtificialAmateur/clang-tidy-action@master
+    env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
